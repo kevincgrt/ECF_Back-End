@@ -1,0 +1,86 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+#submit{
+    background-color: #FF66AB;
+    color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 25px;
+    width: 10vw;
+    height: 5vh;
+    margin-left: 59px;
+}
+
+#submit:hover{
+    background-color: #ff147ed0;
+    cursor: pointer;
+}
+
+.container1{
+    background-color: rgba(255, 255, 255, 0.84);
+    height: 70vh;
+    width: 50vw;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 25vw;
+    border: solid 1px black;
+    align-items: center;
+    transition: all 0.3s;
+}
+.container1:hover{
+    background-color: rgba(255, 255, 255, 0.878);
+    height: 75vh;
+    width: 55vw;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 22.5vw;
+    border: solid 1px black;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    border: solid #000000 1px;
+    border-radius: 5%;
+}
+
+#username{
+    width: 15vw;
+    margin-left: 45px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+#email{
+    width: 15vw;
+    margin-left: 45px;
+    height: 25px;
+    border-radius: 10px;
+}
+#password{
+    width: 15vw;
+    margin-left: 45px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+body{
+    background-image: url(../public/images/nuria-fosas-forns-CbEQd5Fpv9k-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    text-align:center;
+}

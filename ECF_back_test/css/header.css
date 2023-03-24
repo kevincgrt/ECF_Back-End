@@ -1,0 +1,120 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top:0;
+    z-index:1000;
+}
+
+#logo{
+    width: 80px;
+    margin-left: -20vw;
+}
+
+
+#input-menu{
+    width: 60vh;
+    height: 30px;
+    border-radius: 20px;
+    border: solid gray 1px;
+}
+
+#connexion, #logout {
+    margin-left: 25px;
+    background-color: #FF66AB;
+    border: none;
+    width: 7vw;
+    height: 5vh;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#connexion:hover, #logout:hover {
+    background-color: #ff66abcd;
+    color: white;
+}
+
+#inscription{
+    margin-left: 20px;
+    background-color: #FF147E;
+    border: none;
+    width: 7vw;
+    height: 5vh;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#inscription:hover{
+    background-color: #ff147ed0;
+    color:white;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+#explorer{
+    margin-right: 50px;
+}
+
+#explorer a{
+    color: black;
+}
+
+#explorer :hover{
+    color: #d51b1b;
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid gray 1px;
+    z-index: 0;
+}
+
+#user{
+    width: 35px;
+    margin-left: 50px;
+}
+
+#h-user{
+    margin-left: 40px;
+}
+
+#cat-profile{
+    width: 42px;
+}
+
+#cat-a{
+    width: 45px;
+    margin-left: 35px;
+    width: 45px;
+}
+#forum{
+    
+}
+#forum a{
+    margin-right: 100px;
+    
+}
+    
+
+#createtopic a{
+
+}
